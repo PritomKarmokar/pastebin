@@ -28,8 +28,7 @@
 - An .env file is required to run the project.
 - In the `.env` file, the `DB_HOST` value must be the name of the postgres service name (e.g. `DB_HOST=_postgres`)
 
-# Optional
-## If you want to fresh start
+## If you want to fresh start (Optional)
 
 1. Create a repository 
 ```shell
@@ -50,4 +49,4 @@
     $ django-admin startproject pastebin .
 ```
 5. Configure the `settings.py` file with .env and postgres database configuration following the `pastebin/settings.py`
-6. Create the database accordingly and make necessary changes as your need.
+6. Create the database accordingly and make necessary changes as your need
